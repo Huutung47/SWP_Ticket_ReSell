@@ -1,0 +1,15 @@
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.deps.json
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.pdb
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.AssemblyReference.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfoInputs.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfo.cs
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.CoreCompileInputs.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Tick.B0463CDD.Up2Date
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\refint\SWP_Ticket_ReSell_Repository.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\ref\SWP_Ticket_ReSell_Repository.dll

@@ -1,0 +1,14 @@
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.deps.json
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.pdb
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.AssemblyInfoInputs.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.AssemblyInfo.cs
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.csproj.CoreCompileInputs.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\refint\SWP_Ticket_ReSell_DAO.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.pdb
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\ref\SWP_Ticket_ReSell_DAO.dll
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.runtimeconfig.json
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.csproj.AssemblyReference.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.genruntimeconfig.cache

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SWP_Ticket_ReSell_API.props" />
+</Project>
