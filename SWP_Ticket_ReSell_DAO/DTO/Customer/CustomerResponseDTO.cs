@@ -11,7 +11,7 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Customer
 {
     public class CustomerResponseDTO
     {
-        public int IdCustomer { get; set; }
+        public int ID_Customer { get; set; }
 
         public string? Name { get; set; }
 
@@ -19,16 +19,16 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Customer
 
         public string? Email { get; set; }
 
-        public decimal? AverageFeedback { get; set; }
+        public decimal? Average_feedback { get; set; }
 
-        public int? IdRole { get; set; } // bỏ  ID này nếu thấy thừa
+        public int? ID_Role { get; set; }
 
-        public int? IdPackage { get; set; } // bỏ ID này nếu thấy thừa
+        public int? ID_Package { get; set; }
 
         public DateTime? PackageExpirationDate { get; set; }
 
-        public virtual PackageDTO? IdPackageNavigation { get; set; }
+        public virtual PackageDTO? ID_PackageNavigation { get; set; }
 
-        public virtual RoleDTO? IdRoleNavigation { get; set; }
+        public virtual RoleDTO? ID_RoleNavigation { get; set; }
     }
 }

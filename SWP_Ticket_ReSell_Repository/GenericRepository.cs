@@ -6,10 +6,10 @@ using System.Linq.Expressions;
 namespace Repository;
 public class GenericRepository<T> where T : class
 {
-    private readonly Swp1Context _context;
+    private readonly swp1Context _context;
     private readonly DbSet<T> dbSet;
 
-    public GenericRepository(Swp1Context context)
+    public GenericRepository(swp1Context context)
     {
         _context = context;
         dbSet = context.Set<T>();

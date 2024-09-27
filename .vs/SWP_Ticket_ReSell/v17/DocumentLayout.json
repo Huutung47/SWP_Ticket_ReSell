@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\customer\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\customer\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\customer\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\customer\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_dao\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|c:\\users\\tran thien quoc anh\\downloads\\l\u00E0m cho t\u00F9ng\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\customer\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\customer\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,63 +58,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:48:28.54Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:23:25.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:11:01.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T08:10:36.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAArwCYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:48:34.905Z",
+              "WhenOpened": "2024-09-27T15:11:47.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Customer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:08:43.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:08:30.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:08:27.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\l\u00E0m cho t\u00F9ng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:08:20.871Z",
               "EditorCaption": ""
             }
           ]

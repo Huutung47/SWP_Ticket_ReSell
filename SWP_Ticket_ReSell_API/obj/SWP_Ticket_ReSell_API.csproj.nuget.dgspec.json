@@ -61,6 +61,14 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -156,10 +164,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "LAK.Sdk.Core": {
-              "target": "Package",
-              "version": "[7.1.1, )"
-            },
             "Mapster": {
               "target": "Package",
               "version": "[7.4.0, )"
@@ -185,6 +189,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore.Filters": {
               "target": "Package",

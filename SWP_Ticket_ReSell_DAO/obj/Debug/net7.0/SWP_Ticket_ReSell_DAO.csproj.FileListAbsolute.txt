@@ -12,3 +12,4 @@ C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Tick
 C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.runtimeconfig.json
 C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.csproj.AssemblyReference.cache
 C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.genruntimeconfig.cache
+C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_DAO\obj\Debug\net7.0\SWP_Ticket_ReSell_DAO.sourcelink.json

@@ -3,7 +3,7 @@
 namespace Repository;
 public class ServiceBase<T> : GenericRepository<T> where T : class
 {
-    public ServiceBase(Swp1Context context) : base(context)
+    public ServiceBase(swp1Context context) : base(context)
     {
     }
 }

@@ -22,14 +22,17 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Customer
 
 
         //[Range(0, 100, ErrorMessage = "AverageFeedback >= 0 and <= 100")]
-        public decimal? AverageFeedback { get; set; }
+        public decimal? Average_feedback { get; set; }
 
 
         //[RegularExpression(@"^\d{2}-\d{2}-\d{4}$", ErrorMessage = "Ngày phải có định dạng dd-MM-yyyy.")]
         public DateTime? PackageExpirationDate { get; set; }
 
-        public int? IdRole { get; set; }
+        public int? ID_Role { get; set; }
 
-        public int? IdPackage { get; set; }
+        public int? ID_Package { get; set; }
+
+        public string? Password { get; set; } // mã hóa từ FE sang base64 hoặc gì gì đó rồi lưu vào DB 
+
     }
 }

@@ -17,7 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //--
-builder.Services.AddDbContext<Swp1Context>(options =>
+builder.Services.AddDbContext<swp1Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB"))
            .UseLazyLoadingProxies()
            .EnableSensitiveDataLogging()

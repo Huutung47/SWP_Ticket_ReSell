@@ -8,10 +8,10 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Role
 {
     public class RoleDTO
     {
-        public int IdRole { get; set; }
+        public int ID_Role { get; set; }
 
-        public string? NameRole { get; set; }
+        public string Name_role { get; set; }
 
-        public string? Role1 { get; set; }
+        public string Role1 { get; set; }
     }
 }

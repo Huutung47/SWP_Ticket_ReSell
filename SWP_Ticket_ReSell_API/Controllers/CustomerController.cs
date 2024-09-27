@@ -24,16 +24,16 @@ namespace SWP_Ticket_ReSell_API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<CustomerResponseDTO>>> GetSilverJewelries()
+        public async Task<ActionResult<IList<CustomerResponseDTO>>> GetCustomer()
         {
             var entities = await _service.FindListAsync<CustomerResponseDTO>();
             return Ok(entities);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<CustomerResponseDTO>> GetSilverJewelry(string id)
+        public async Task<ActionResult<CustomerResponseDTO>> GetCustomer(string id)
         {
-            var entity = await _service.FindByAsync(p => p.IdCustomer.ToString() == id);
+            var entity = await _service.FindByAsync(p => p.ID_Customer.ToString() == id);
             if (entity == null)
             {
                 return Problem(detail: $"Customer id {id} cannot found", statusCode: 404);
@@ -44,15 +44,15 @@ namespace SWP_Ticket_ReSell_API.Controllers
         [HttpPut]
         public async Task<IActionResult> PutCustomer(CustomerRequestDTO customerRequest)
         {
-            var entity = await _service.FindByAsync(p => p.IdCustomer == customerRequest.IdCustomer);
+            var entity = await _service.FindByAsync(p => p.ID_Customer == customerRequest.ID_Customer);
             if (entity == null)
             {
-                return Problem(detail: $"Customer_id {customerRequest.IdCustomer} cannot found", statusCode: 404);
+                return Problem(detail: $"Customer_id {customerRequest.ID_Customer} cannot found", statusCode: 404);
             }
 
-            if (!await _servicePackage.ExistsByAsync(p => p.IdPackage == customerRequest.IdPackage))
+            if (!await _servicePackage.ExistsByAsync(p => p.ID_Package == customerRequest.ID_Package))
             {
-                return Problem(detail: $"Package_id {customerRequest.IdPackage} cannot found", statusCode: 404);
+                return Problem(detail: $"Package_id {customerRequest.ID_Package} cannot found", statusCode: 404);
             }
 
             customerRequest.Adapt(entity);
@@ -68,9 +68,9 @@ namespace SWP_Ticket_ReSell_API.Controllers
                 return Problem(detail: $"Email {customerRequest.Email} already exists", statusCode: 400);
             }
 
-            if (!await _servicePackage.ExistsByAsync(p => p.IdPackage == customerRequest.IdPackage))
+            if (!await _servicePackage.ExistsByAsync(p => p.ID_Package == customerRequest.ID_Package))
             {
-                return Problem(detail: $"Package_id {customerRequest.IdPackage} cannot found", statusCode: 404);
+                return Problem(detail: $"Package_id {customerRequest.ID_Package} cannot found", statusCode: 404);
             }
 
             var customer = new Customer();
@@ -84,7 +84,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomer(int id)
         {
-            var customer = await _service.FindByAsync(p => p.IdCustomer == id);
+            var customer = await _service.FindByAsync(p => p.ID_Customer == id);
             if (customer == null)
             {
                 return Problem(detail: $"customer_id {id} cannot found", statusCode: 404);

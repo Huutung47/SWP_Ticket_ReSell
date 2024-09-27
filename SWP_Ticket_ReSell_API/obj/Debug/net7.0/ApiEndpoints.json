@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "SWP_Ticket_ReSell_API.Controllers.CustomerController",
-    "Method": "GetSilverJewelries",
+    "Method": "GetCustomer",
     "RelativePath": "api/Customer",
     "HttpMethod": "GET",
     "IsController": true,
@@ -63,7 +63,7 @@
   },
   {
     "ContainingType": "SWP_Ticket_ReSell_API.Controllers.CustomerController",
-    "Method": "GetSilverJewelry",
+    "Method": "GetCustomer",
     "RelativePath": "api/Customer/{id}",
     "HttpMethod": "GET",
     "IsController": true,
