@@ -38,10 +38,10 @@ namespace SWP_Ticket_ReSell_API.Controllers
                 }
                 List<Claim> claims = new List<Claim>
                 {
-                    //ID
-                    new Claim(ClaimTypes.NameIdentifier, user.ID_Customer.ToString()),
+                    //Name
+                    new Claim(ClaimTypes.NameIdentifier, user.Name.ToString()),
                     //Email 
-                    new Claim(ClaimTypes.NameIdentifier, user.Email.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email.ToString()),
                     //role 
                     new Claim(ClaimTypes.Role, user.ID_Role.ToString()!)
                 };
@@ -57,7 +57,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
                 var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
                 //return Ok(new TokenRequest(jwt, user.Role));
-                return Ok(new AccessTokenResponse { AccessToken = jwt, ExpiresIn = expiredToken });
+                return Ok(new AccessTokenResponse {ID=user.ID_Customer, AccessToken = jwt, ExpiresIn = expiredToken });
             }
         [HttpPost("Register")]
         public async Task<ActionResult<RegisterResponseDTO>> Register(RegisterRequestDTO request)
@@ -70,10 +70,22 @@ namespace SWP_Ticket_ReSell_API.Controllers
             {
                 return Problem(detail: $"Password and Confirm Password different", statusCode: 400);
             }
-            var customer = new Customer();
+            var customer = new Customer()
+            {
+                Email = request.Email,
+                Password = request.Password,
+                Name = request.Name,
+
+                //Feed Back Avg
+                Average_feedback = 0,
+                //Customer Role = 2
+                ID_Role = 2,
+                //Basic Backet = 1 
+                ID_Package = 1
+            };
             //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
             //var callbackUrl = Url.Action("ConfirmEmail", "Account", new {user})
-            //request.Adapt(customer); 
+            request.Adapt(customer); 
             await _service.CreateAsync(customer);
             return Ok("Create customer successfull.");
         }

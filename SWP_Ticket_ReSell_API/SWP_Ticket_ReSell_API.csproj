@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SWP_Ticket_ReSell_DAO\SWP_Ticket_ReSell_DAO.csproj" />
     <ProjectReference Include="..\SWP_Ticket_ReSell_Repository\SWP_Ticket_ReSell_Repository.csproj" />
   </ItemGroup>
 
