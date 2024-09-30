@@ -14,3 +14,50 @@ C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Tick
 C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
 C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\ref\SWP_Ticket_ReSell_Repository.dll
 C:\Users\Tran Thien Quoc Anh\Downloads\làm cho tùng\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.sourcelink.json
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.deps.json
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.dll
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.pdb
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.AssemblyReference.cache
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfoInputs.cache
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfo.cs
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.CoreCompileInputs.cache
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Tick.B0463CDD.Up2Date
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\refint\SWP_Ticket_ReSell_Repository.dll
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+D:\Visual Code\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\ref\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.deps.json
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.pdb
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.AssemblyReference.cache
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfoInputs.cache
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfo.cs
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.CoreCompileInputs.cache
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.sourcelink.json
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Tick.B0463CDD.Up2Date
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\refint\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\ref\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.deps.json
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\bin\Debug\net7.0\SWP_Ticket_ReSell_DAO.pdb
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.AssemblyReference.cache
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfoInputs.cache
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.AssemblyInfo.cs
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.csproj.CoreCompileInputs.cache
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.sourcelink.json
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Tick.B0463CDD.Up2Date
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\refint\SWP_Ticket_ReSell_Repository.dll
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\SWP_Ticket_ReSell_Repository.pdb
+D:\SWP_Ticket_ReSell-main\SWP_Ticket_ReSell\SWP_Ticket_ReSell_Repository\obj\Debug\net7.0\ref\SWP_Ticket_ReSell_Repository.dll

@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj": {}
+    "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj": {
+    "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
+        "projectUniqueName": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
         "projectName": "SWP_Ticket_ReSell_API",
-        "projectPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
-        "packagesPath": "C:\\Users\\Tran Thien Quoc Anh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\obj\\",
+        "projectPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Thien Quoc Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +25,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -36,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
-                "projectPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj"
+              "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
+                "projectPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj"
               }
             }
           }
@@ -57,9 +54,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -85,24 +94,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -115,22 +106,20 @@
         }
       }
     },
-    "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
+    "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
+        "projectUniqueName": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
         "projectName": "SWP_Ticket_ReSell_DAO",
-        "projectPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
-        "packagesPath": "C:\\Users\\Tran Thien Quoc Anh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\obj\\",
+        "projectPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Thien Quoc Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -138,7 +127,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -172,6 +160,10 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.16, )"
@@ -182,13 +174,11 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -214,20 +204,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -237,22 +213,20 @@
         }
       }
     },
-    "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
+    "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
+        "projectUniqueName": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
         "projectName": "SWP_Ticket_ReSell_Repository",
-        "projectPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
-        "packagesPath": "C:\\Users\\Tran Thien Quoc Anh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\obj\\",
+        "projectPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Thien Quoc Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -260,7 +234,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -269,8 +242,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
-                "projectPath": "C:\\Users\\Tran Thien Quoc Anh\\Downloads\\làm cho tùng\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj"
+              "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
+                "projectPath": "D:\\SWP_Ticket_ReSell-main\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj"
               }
             }
           }
@@ -300,20 +273,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

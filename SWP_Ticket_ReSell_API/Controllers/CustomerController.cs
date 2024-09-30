@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repository;
+using SWP_Ticket_ReSell_DAO.DTO.Authentication;
 using SWP_Ticket_ReSell_DAO.DTO.Customer;
 using SWP_Ticket_ReSell_DAO.Models;
 
@@ -42,6 +43,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
         }
 
         [HttpPut]
+        [Authorize]
         public async Task<IActionResult> PutCustomer(CustomerRequestDTO customerRequest)
         {
             var entity = await _service.FindByAsync(p => p.ID_Customer == customerRequest.ID_Customer);
