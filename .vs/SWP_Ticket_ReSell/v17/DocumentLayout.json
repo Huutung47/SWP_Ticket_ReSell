@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\SWP\\SWP_Ticket_ReSell\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\models\\boxchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\models\\boxchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\helper\\constanthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\helper\\constanthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\helper\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\helper\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\view\\nofiticate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\view\\nofiticate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\package\\packageresponsedto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\package\\packageresponsedto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\models\\swp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\models\\swp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\feedback\\packagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\feedback\\packagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\package\\packagerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\package\\packageresponsedto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\package\\packageresponsedto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\authentication\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\authentication\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\helper\\constanthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\helper\\constanthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\authentication\\accesstokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\helper\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\helper\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\view\\nofiticate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\view\\nofiticate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,33 +126,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerCreateDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T03:38:11.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T03:37:53.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Boxchat.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Boxchat.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Boxchat.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Boxchat.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Boxchat.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:16:35.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Swp1Context.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:08:44.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PackageRequestDTO.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Feedback\\PackageRequestDTO.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Feedback\\PackageRequestDTO.cs",
@@ -157,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PackageResponseDTO .cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageResponseDTO .cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageResponseDTO .cs",
@@ -170,20 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PackageRequestDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T02:51:46.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "PackageController.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
@@ -191,38 +186,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:50:06.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T01:50:06.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerRequestDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T03:04:47.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterRequestDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T02:56:30.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RoleDTO.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Role\\RoleDTO.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Role\\RoleDTO.cs",
@@ -235,7 +203,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nofiticate.cshtml",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
+              "RelativeToolTip": "SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T13:10:11.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SendMail.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T10:20:25.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConstantHelper.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T10:24:50.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PackageRequestDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Package\\PackageRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T02:51:46.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:37:53.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerCreateDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:38:11.863Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "CustomerRequestDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerRequestDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:04:47.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterRequestDTO.cs",
+              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
+              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
+              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterRequestDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T02:56:30.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CustomerResponseDTO.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
@@ -243,12 +310,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Customer\\CustomerResponseDTO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T03:04:43.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T03:04:43.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "RegisterResponseDTO.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterResponseDTO.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterResponseDTO.cs",
@@ -256,25 +322,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\RegisterResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T02:56:32.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T02:56:32.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ConstantHelper.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_API\\Helper\\ConstantHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T10:24:50.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "AccessTokenResponse.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\AccessTokenResponse.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\AccessTokenResponse.cs",
@@ -282,12 +334,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Authentication\\AccessTokenResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T03:05:11.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T03:05:11.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\appsettings.json",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\appsettings.json",
@@ -295,12 +346,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T02:49:30.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T02:49:30.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Package.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Package.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Package.cs",
@@ -308,12 +358,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Package.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T02:52:01.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T02:52:01.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
@@ -321,24 +370,11 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:29:38.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T07:29:38.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Nofiticate.cshtml",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
-              "RelativeToolTip": "SWP_Ticket_ReSell_API\\View\\Nofiticate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T13:10:11.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
@@ -346,21 +382,7 @@
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAewEwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T12:51:31.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SendMail.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
-              "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
-              "RelativeToolTip": "SWP_Ticket_ReSell_API\\Helper\\SendMail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T10:20:25.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T12:51:31.43Z"
             }
           ]
         }

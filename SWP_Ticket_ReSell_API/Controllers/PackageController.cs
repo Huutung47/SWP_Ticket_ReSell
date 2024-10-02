@@ -34,7 +34,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
         //Customer xài
         //[Authorize(Roles = "2")]
         [HttpPost]
-        public async Task<IActionResult> PackageChoose(FeedbackRequestDTO package)
+        public async Task<IActionResult> PackageChoose(PackageRequestDTO package)
         {
             // Tìm gói Package dựa trên ID_Package mà khách hàng chọn
             var packageFind = await _servicePackage.FindByAsync(p => p.ID_Package == package.ID_Package);
