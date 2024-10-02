@@ -13,7 +13,7 @@ public partial class Request
 
     public decimal? Price_want { get; set; }
 
-    public string History { get; set; }
+    public DateTime? History { get; set; }
 
     public virtual Customer ID_CustomerNavigation { get; set; }
 

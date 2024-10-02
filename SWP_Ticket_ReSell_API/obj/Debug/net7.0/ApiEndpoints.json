@@ -144,5 +144,41 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SWP_Ticket_ReSell_API.Controllers.PackageController",
+    "Method": "GetPackage",
+    "RelativePath": "api/Package",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IList\u00601[[SWP_Ticket_ReSell_DAO.DTO.Package.PackageRequestDTO, SWP_Ticket_ReSell_DAO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SWP_Ticket_ReSell_API.Controllers.PackageController",
+    "Method": "PackageChoose",
+    "RelativePath": "api/Package",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "package",
+        "Type": "SWP_Ticket_ReSell_DAO.DTO.Package.PackageResponseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

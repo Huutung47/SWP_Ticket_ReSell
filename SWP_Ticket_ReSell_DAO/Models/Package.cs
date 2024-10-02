@@ -13,5 +13,7 @@ public partial class Package
 
     public decimal? Price { get; set; }
 
+    public int? Time_package { get; set; }
+
     public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 }

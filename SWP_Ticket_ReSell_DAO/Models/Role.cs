@@ -11,7 +11,5 @@ public partial class Role
 
     public string Name_role { get; set; }
 
-    public string Role1 { get; set; }
-
     public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 }

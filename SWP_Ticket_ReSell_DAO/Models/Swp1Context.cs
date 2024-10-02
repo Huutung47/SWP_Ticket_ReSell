@@ -37,28 +37,20 @@ public partial class swp1Context : DbContext
     {
         modelBuilder.Entity<Boxchat>(entity =>
         {
-            entity.HasKey(e => e.ID_Boxchat).HasName("PK__Boxchat__23A1BC0646EAE1D8");
+            entity.HasKey(e => e.ID_Boxchat).HasName("PK__Boxchat__23A1BC067A42130D");
 
             entity.ToTable("Boxchat");
 
             entity.Property(e => e.Chat_content).HasColumnType("text");
 
-            entity.HasOne(d => d.Buyer).WithMany(p => p.BoxchatBuyers)
-                .HasForeignKey(d => d.Buyer_ID)
-                .HasConstraintName("FK__Boxchat__Buyer_I__66603565");
-
             entity.HasOne(d => d.ID_TicketNavigation).WithMany(p => p.Boxchats)
                 .HasForeignKey(d => d.ID_Ticket)
-                .HasConstraintName("FK__Boxchat__ID_Tick__6477ECF3");
-
-            entity.HasOne(d => d.Seller).WithMany(p => p.BoxchatSellers)
-                .HasForeignKey(d => d.Seller_ID)
-                .HasConstraintName("FK__Boxchat__Seller___656C112C");
+                .HasConstraintName("FK__Boxchat__ID_Tick__5441852A");
         });
 
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.ID_Customer).HasName("PK__Customer__2D8FDE5F5F00CC1E");
+            entity.HasKey(e => e.ID_Customer).HasName("PK__Customer__2D8FDE5F9207E1A8");
 
             entity.ToTable("Customer");
 
@@ -69,7 +61,7 @@ public partial class swp1Context : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
                 .IsUnicode(false);
-            entity.Property(e => e.HSD_package).HasColumnType("date");
+            entity.Property(e => e.HSD_package).HasColumnType("datetime");
             entity.Property(e => e.Name)
                 .HasMaxLength(255)
                 .IsUnicode(false);
@@ -88,7 +80,7 @@ public partial class swp1Context : DbContext
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.ID_Feedback).HasName("PK__Feedback__7CA05C3F6F939D5F");
+            entity.HasKey(e => e.ID_Feedback).HasName("PK__Feedback__7CA05C3F3328D3E2");
 
             entity.ToTable("Feedback");
 
@@ -96,12 +88,12 @@ public partial class swp1Context : DbContext
 
             entity.HasOne(d => d.ID_OrderNavigation).WithMany(p => p.Feedbacks)
                 .HasForeignKey(d => d.ID_Order)
-                .HasConstraintName("FK__Feedback__ID_Ord__571DF1D5");
+                .HasConstraintName("FK__Feedback__ID_Ord__59FA5E80");
         });
 
         modelBuilder.Entity<Notification>(entity =>
         {
-            entity.HasKey(e => e.ID_Notification).HasName("PK__Notifica__09D4F1669EB38735");
+            entity.HasKey(e => e.ID_Notification).HasName("PK__Notifica__09D4F166CB0ACFAF");
 
             entity.ToTable("Notification");
 
@@ -115,12 +107,12 @@ public partial class swp1Context : DbContext
 
             entity.HasOne(d => d.ID_TicketNavigation).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.ID_Ticket)
-                .HasConstraintName("FK__Notificat__ID_Ti__619B8048");
+                .HasConstraintName("FK__Notificat__ID_Ti__5CD6CB2B");
         });
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.ID_Order).HasName("PK__Order__EC9FA9550668C65E");
+            entity.HasKey(e => e.ID_Order).HasName("PK__Order__EC9FA955AC68FA7E");
 
             entity.ToTable("Order");
 
@@ -142,12 +134,12 @@ public partial class swp1Context : DbContext
 
             entity.HasOne(d => d.ID_TicketNavigation).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.ID_Ticket)
-                .HasConstraintName("FK__Order__ID_Ticket__5441852A");
+                .HasConstraintName("FK__Order__ID_Ticket__571DF1D5");
         });
 
         modelBuilder.Entity<Package>(entity =>
         {
-            entity.HasKey(e => e.ID_Package).HasName("PK__Package__10A64872CAEBDEEF");
+            entity.HasKey(e => e.ID_Package).HasName("PK__Package__10A6487202FE6935");
 
             entity.ToTable("Package");
 
@@ -159,7 +151,7 @@ public partial class swp1Context : DbContext
 
         modelBuilder.Entity<Report>(entity =>
         {
-            entity.HasKey(e => new { e.ID_Customer, e.ID_Order }).HasName("PK__Report__634624CACFD28192");
+            entity.HasKey(e => new { e.ID_Customer, e.ID_Order }).HasName("PK__Report__634624CA40E556CB");
 
             entity.ToTable("Report");
 
@@ -168,63 +160,64 @@ public partial class swp1Context : DbContext
             entity.HasOne(d => d.ID_CustomerNavigation).WithMany(p => p.Reports)
                 .HasForeignKey(d => d.ID_Customer)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Report__ID_Custo__5DCAEF64");
+                .HasConstraintName("FK__Report__ID_Custo__5FB337D6");
 
             entity.HasOne(d => d.ID_OrderNavigation).WithMany(p => p.Reports)
                 .HasForeignKey(d => d.ID_Order)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Report__ID_Order__5EBF139D");
+                .HasConstraintName("FK__Report__ID_Order__60A75C0F");
         });
 
         modelBuilder.Entity<Request>(entity =>
         {
-            entity.HasKey(e => new { e.ID_Ticket, e.ID_Customer }).HasName("PK__Request__9B2D21ED4A708D4C");
+            entity.HasKey(e => new { e.ID_Ticket, e.ID_Customer }).HasName("PK__Request__9B2D21ED39D4346D");
 
             entity.ToTable("Request");
 
-            entity.Property(e => e.History).HasColumnType("text");
+            entity.Property(e => e.History).HasColumnType("datetime");
             entity.Property(e => e.Price_want).HasColumnType("decimal(10, 2)");
 
             entity.HasOne(d => d.ID_CustomerNavigation).WithMany(p => p.Requests)
                 .HasForeignKey(d => d.ID_Customer)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Request__ID_Cust__5AEE82B9");
+                .HasConstraintName("FK__Request__ID_Cust__6477ECF3");
 
             entity.HasOne(d => d.ID_TicketNavigation).WithMany(p => p.Requests)
                 .HasForeignKey(d => d.ID_Ticket)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Request__ID_Tick__59FA5E80");
+                .HasConstraintName("FK__Request__ID_Tick__6383C8BA");
         });
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.ID_Role).HasName("PK__Role__43DCD32D6A28D249");
+            entity.HasKey(e => e.ID_Role).HasName("PK__Role__43DCD32DAC52739E");
 
             entity.ToTable("Role");
 
             entity.Property(e => e.Name_role)
                 .HasMaxLength(255)
                 .IsUnicode(false);
-            entity.Property(e => e.Role1)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("Role");
         });
 
         modelBuilder.Entity<Ticket>(entity =>
         {
-            entity.HasKey(e => e.ID_Ticket).HasName("PK__Ticket__79F5DC080E32604D");
+            entity.HasKey(e => e.ID_Ticket).HasName("PK__Ticket__79F5DC08B09FA5A4");
 
             entity.ToTable("Ticket");
 
             entity.Property(e => e.Buyer)
                 .HasMaxLength(255)
                 .IsUnicode(false);
+            entity.Property(e => e.Description).HasColumnType("text");
+            entity.Property(e => e.Event_Date).HasColumnType("datetime");
             entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.Show_Name)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.Status)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-            entity.Property(e => e.Ticket_History).HasColumnType("text");
+            entity.Property(e => e.Ticket_History).HasColumnType("datetime");
             entity.Property(e => e.Ticket_category)
                 .HasMaxLength(255)
                 .IsUnicode(false);

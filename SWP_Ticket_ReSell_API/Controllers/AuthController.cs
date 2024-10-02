@@ -75,14 +75,14 @@ namespace SWP_Ticket_ReSell_API.Controllers
                 Email = request.Email,
                 Password = request.Password,
                 Name = request.Name,
-
                 //Feed Back Avg
                 Average_feedback = 0,
                 //Customer Role = 2
                 ID_Role = 2,
                 //Basic Backet = 1 
-                ID_Package = 1
+                ID_Package = 1,
             };
+            //Email
             //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
             //var callbackUrl = Url.Action("ConfirmEmail", "Account", new {user})
             request.Adapt(customer); 

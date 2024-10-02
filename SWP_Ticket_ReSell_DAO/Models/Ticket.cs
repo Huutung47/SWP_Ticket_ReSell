@@ -21,9 +21,17 @@ public partial class Ticket
 
     public int? Quantity { get; set; }
 
-    public string Ticket_History { get; set; }
+    public DateTime? Ticket_History { get; set; }
 
     public string Status { get; set; }
+
+    public DateTime? Event_Date { get; set; }
+
+    public string Show_Name { get; set; }
+
+    public string Description { get; set; }
+
+    public int? Seat { get; set; }
 
     public virtual ICollection<Boxchat> Boxchats { get; set; } = new List<Boxchat>();
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SWP_Ticket_ReSell_DAO.DTO.Package
 {
-    public class PackageDTO
+    public class PackageResponseDTO
     {
         public int ID_Package { get; set; }
 

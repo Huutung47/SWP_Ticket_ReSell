@@ -29,7 +29,7 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Customer
 
         public DateTime? PackageExpirationDate { get; set; }
 
-        public virtual PackageDTO? ID_PackageNavigation { get; set; }
+        public virtual FeedbackRequestDTO? ID_PackageNavigation { get; set; }
 
         public virtual RoleDTO? ID_RoleNavigation { get; set; }
     }

@@ -17,9 +17,5 @@ public partial class Boxchat
 
     public string Chat_content { get; set; }
 
-    public virtual Customer Buyer { get; set; }
-
     public virtual Ticket ID_TicketNavigation { get; set; }
-
-    public virtual Customer Seller { get; set; }
 }
