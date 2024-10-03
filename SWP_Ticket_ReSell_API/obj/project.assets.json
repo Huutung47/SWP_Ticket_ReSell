@@ -4729,23 +4729,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hoang\\.nuget\\packages\\": {},
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
       "projectName": "SWP_Ticket_ReSell_API",
-      "projectPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
-      "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\obj\\",
+      "projectPath": "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4754,18 +4754,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
-              "projectPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj"
+            "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
+              "projectPath": "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj"
             },
-            "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
-              "projectPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj"
+            "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
+              "projectPath": "C:\\Users\\dell\\source\\repos\\SWP_Ticket_ReSell2\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj"
             }
           }
         }
@@ -4833,7 +4832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
