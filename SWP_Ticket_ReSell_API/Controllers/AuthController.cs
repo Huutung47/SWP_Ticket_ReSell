@@ -15,28 +15,37 @@ namespace SWP_Ticket_ReSell_API.Controllers
     [Route("api/[controller]")]
     public class AuthController : Controller
     {
-            private readonly IConfiguration _configuration;
-            private readonly ServiceBase<Customer> _service;
-            private readonly ServiceBase<Role>  _serviceRole;
+        private readonly IConfiguration _configuration;
+        private readonly ServiceBase<Customer> _serviceCustomer;
+        private readonly ServiceBase<Role> _serviceRole;
+        private readonly ServiceBase<Package> _servicePackage;
+        private readonly ServiceBase<Feedback> _serviceFeedback;
+        private readonly ServiceBase<Boxchat> _serviceBoxchat;
+        private readonly ServiceBase<Notification> _serviceNotification;
+        private readonly ServiceBase<Order> _serviceOrder;
+        private readonly ServiceBase<Report> _serviceReport;
+        private readonly ServiceBase<Request> _serviceRequest;
+        private readonly ServiceBase<Ticket> _serviceTicket;
 
-            public AuthController(IConfiguration configuration, ServiceBase<Customer> service, ServiceBase<Role> serviceRole)
+        public AuthController(IConfiguration configuration, ServiceBase<Customer> serviceCustomer, ServiceBase<Role> serviceRole)
+        {
+            _configuration = configuration;
+            _serviceCustomer = serviceCustomer;
+            _serviceRole = serviceRole;
+        }
+
+
+        [HttpPost("Login")]
+        public async Task<ActionResult> Login(LoginRequestDTO login)
+        {
+            var user = await _serviceCustomer
+                .FindByAsync(x => x.Email == login.Email &&
+                                  x.Password == login.Password);
+            if (user == null)
             {
-                _configuration = configuration;
-                _service = service;
-                _serviceRole = serviceRole;
+                return Unauthorized();
             }
-
-            [HttpPost("Login")]
-            public async Task<ActionResult> Login(LoginRequestDTO login)
-            {
-                var user = await _service
-                    .FindByAsync(x => x.Email == login.Email &&
-                                      x.Password == login.Password);
-                if (user == null)
-                {
-                    return Unauthorized();
-                }
-                List<Claim> claims = new List<Claim>
+            List<Claim> claims = new List<Claim>
                 {
                     //Name
                     new Claim(ClaimTypes.NameIdentifier, user.Name.ToString()),
@@ -45,24 +54,26 @@ namespace SWP_Ticket_ReSell_API.Controllers
                     //role 
                     new Claim(ClaimTypes.Role, user.ID_Role.ToString()!)
                 };
-                var key = new SymmetricSecurityKey(
-                    System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:SerectKey").Value!));
+            var key = new SymmetricSecurityKey(
+                System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:SerectKey").Value!));
 
-                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
-                long expiredToken = 30;
-                var token = new JwtSecurityToken(
-                     claims: claims,
-                     expires: DateTime.UtcNow.AddMinutes(expiredToken),
-                     signingCredentials: creds);
-                var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
+            long expiredToken = 30;
+            var token = new JwtSecurityToken(
+                 claims: claims,
+                 expires: DateTime.UtcNow.AddMinutes(expiredToken),
+                 signingCredentials: creds);
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
-                //return Ok(new TokenRequest(jwt, user.Role));
-                return Ok(new AccessTokenResponse {ID=user.ID_Customer, AccessToken = jwt, ExpiresIn = expiredToken });
-            }
+            //return Ok(new TokenRequest(jwt, user.Role));
+            return Ok(new AccessTokenResponse { ID = user.ID_Customer, AccessToken = jwt, ExpiresIn = expiredToken });
+        }
+
+
         [HttpPost("Register")]
         public async Task<ActionResult<RegisterResponseDTO>> Register(RegisterRequestDTO request)
         {
-            if (await _service.ExistsByAsync(p => p.Email.Equals(request.Email)))
+            if (await _serviceCustomer.ExistsByAsync(p => p.Email.Equals(request.Email)))
             {
                 return Problem(detail: $"Email {request.Email} already exists", statusCode: 400);
             }
@@ -85,8 +96,8 @@ namespace SWP_Ticket_ReSell_API.Controllers
             //Email
             //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
             //var callbackUrl = Url.Action("ConfirmEmail", "Account", new {user})
-            request.Adapt(customer); 
-            await _service.CreateAsync(customer);
+            request.Adapt(customer);
+            await _serviceCustomer.CreateAsync(customer);
             return Ok("Create customer successfull.");
         }
     }

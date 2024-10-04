@@ -17,6 +17,13 @@ namespace SWP_Ticket_ReSell_API.Controllers
         private readonly ServiceBase<Customer> _service;
         private readonly ServiceBase<Role> _serviceRole;
         private readonly ServiceBase<Package> _servicePackage;
+        private readonly ServiceBase<Feedback> _serviceFeedback;
+        private readonly ServiceBase<Boxchat> _serviceBoxchat;
+        private readonly ServiceBase<Notification> _serviceNotification;
+        private readonly ServiceBase<Order> _serviceOrder;
+        private readonly ServiceBase<Report> _serviceReport;
+        private readonly ServiceBase<Request> _serviceRequest;
+        private readonly ServiceBase<Ticket> _serviceTicket;
         public PackageController(ServiceBase<Customer> service, ServiceBase<Role> serviceRole, ServiceBase<Package> servicePackage)
         {
             _service = service;
@@ -44,7 +51,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> PutTicket(PackageResponseDTO packageRequest)
+        public async Task<IActionResult> PutPackgage (PackageResponseDTO packageRequest)
         {
             var entity = await _service.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
             if (entity == null)
@@ -102,7 +109,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
             }
 
             await _service.DeleteAsync(package);
-            return Ok("Delete customer successfull.");
+            return Ok("Delete package successfull.");
         }
     }
 }

@@ -849,7 +849,10 @@
           "Swashbuckle.AspNetCore.Filters": "7.0.8"
         },
         "runtime": {
-          "SWP_Ticket_ReSell_DAO.dll": {}
+          "SWP_Ticket_ReSell_DAO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SWP_Ticket_ReSell_Repository/1.0.0": {
@@ -857,7 +860,10 @@
           "SWP_Ticket_ReSell_DAO": "1.0.0"
         },
         "runtime": {
-          "SWP_Ticket_ReSell_Repository.dll": {}
+          "SWP_Ticket_ReSell_Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
