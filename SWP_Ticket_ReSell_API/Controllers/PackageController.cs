@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Repository;
 using SWP_Ticket_ReSell_DAO.DTO.Customer;
 using SWP_Ticket_ReSell_DAO.DTO.Package;
+using SWP_Ticket_ReSell_DAO.DTO.Ticket;
 using SWP_Ticket_ReSell_DAO.Models;
 
 namespace SWP_Ticket_ReSell_API.Controllers
@@ -25,10 +26,40 @@ namespace SWP_Ticket_ReSell_API.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        public async Task<ActionResult<IList<FeedbackRequestDTO>>> GetPackage()
+        public async Task<ActionResult<IList<PackageResponseDTO>>> GetPackage()
         {
-            var entities = await _servicePackage.FindListAsync<FeedbackRequestDTO>();
+            var entities = await _servicePackage.FindListAsync<PackageResponseDTO>();
             return Ok(entities);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<PackageResponseDTO>> GetPackage(string id)
+        {
+            var entity = await _service.FindByAsync(p => p.ID_Package.ToString() == id);
+            if (entity == null)
+            {
+                return Problem(detail: $"Package id {id} cannot found", statusCode: 404);
+            }
+            return Ok(entity.Adapt<PackageResponseDTO>());
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> PutTicket(PackageResponseDTO packageRequest)
+        {
+            var entity = await _service.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
+            if (entity == null)
+            {
+                return Problem(detail: $"Package_id {packageRequest.ID_Package} cannot found", statusCode: 404);
+            }
+
+            if (!await _servicePackage.ExistsByAsync(p => p.ID_Package == packageRequest.ID_Package))
+            {
+                return Problem(detail: $"Package_id {packageRequest.ID_Package} cannot found", statusCode: 404);
+            }
+
+            packageRequest.Adapt(entity);
+            await _service.UpdateAsync(entity);
+            return Ok("Update Package successfull.");
         }
 
         //Customer xài
@@ -59,6 +90,19 @@ namespace SWP_Ticket_ReSell_API.Controllers
             }
             //Nếu không thấy Package 
             return NotFound(new { message = "Package not found" });
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePackage(int id)
+        {
+            var package = await _service.FindByAsync(p => p.ID_Package == id);
+            if (package == null)
+            {
+                return Problem(detail: $"package_id {id} cannot found", statusCode: 404);
+            }
+
+            await _service.DeleteAsync(package);
+            return Ok("Delete customer successfull.");
         }
     }
 }
