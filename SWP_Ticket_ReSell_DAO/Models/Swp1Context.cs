@@ -207,6 +207,9 @@ public partial class swp1Context : DbContext
 
             entity.ToTable("Ticket");
 
+            entity.Property(e => e.Buyer)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.Description).HasColumnType("text");
             entity.Property(e => e.Event_Date).HasColumnType("datetime");
             entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");

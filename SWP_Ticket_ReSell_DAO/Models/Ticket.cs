@@ -17,7 +17,7 @@ public partial class Ticket
 
     public string Ticket_type { get; set; }
 
-    public int? Buyer { get; set; }
+    public string Buyer { get; set; }
 
     public int? Quantity { get; set; }
 
