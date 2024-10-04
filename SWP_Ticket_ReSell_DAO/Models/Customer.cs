@@ -25,6 +25,12 @@ public partial class Customer
 
     public DateTime? HSD_package { get; set; }
 
+    public int? Number_of_tickets_posted_for_sale { get; set; }
+
+    public DateTime? Package_registration_time { get; set; }
+
+    public string Image { get; set; }
+
     public virtual Package ID_PackageNavigation { get; set; }
 
     public virtual Role ID_RoleNavigation { get; set; }

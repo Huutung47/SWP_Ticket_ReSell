@@ -15,9 +15,9 @@ public partial class Ticket
 
     public string Ticket_category { get; set; }
 
-    public bool? Ticket_type { get; set; }
+    public string Ticket_type { get; set; }
 
-    public string Buyer { get; set; }
+    public int? Buyer { get; set; }
 
     public int? Quantity { get; set; }
 
@@ -32,6 +32,8 @@ public partial class Ticket
     public string Description { get; set; }
 
     public int? Seat { get; set; }
+
+    public string Image { get; set; }
 
     public virtual ICollection<Boxchat> Boxchats { get; set; } = new List<Boxchat>();
 

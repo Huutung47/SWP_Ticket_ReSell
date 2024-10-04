@@ -15,5 +15,9 @@ public partial class Package
 
     public int? Time_package { get; set; }
 
+    public int? Ticket_can_post { get; set; }
+
+    public string Description { get; set; }
+
     public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 }
