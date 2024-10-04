@@ -66,7 +66,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
             var ticket = new Ticket()
             {
                 ID_Customer = ticketRequest.ID_Customer,
-                Buyer = "",
+                Buyer = null,
                 Ticket_History = DateTime.Now,
                 Status = "Available"
             };
