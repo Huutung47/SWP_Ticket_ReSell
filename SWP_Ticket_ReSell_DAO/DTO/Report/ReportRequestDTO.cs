@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SWP_Ticket_ReSell_DAO.DTO.Report
 {
-    public class ReportDTO
+    public class ReportRequestDTO
     {
         public int ID_Customer { get; set; }
 

@@ -14,7 +14,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
     [ApiController]
     public class PackageController : ControllerBase
     {
-        private readonly ServiceBase<Customer> _service;
+        private readonly ServiceBase<Customer> _serviceCustomer;
         private readonly ServiceBase<Package> _servicePackage;
         private readonly ServiceBase<Role> _serviceRole;
         //private readonly ServiceBase<Feedback> _serviceFeedback;
@@ -25,13 +25,14 @@ namespace SWP_Ticket_ReSell_API.Controllers
         //private readonly ServiceBase<Request> _serviceRequest;
         //private readonly ServiceBase<Ticket> _serviceTicket;
         
-        public PackageController(ServiceBase<Customer> service, ServiceBase<Role> serviceRole, ServiceBase<Package> servicePackage)
+        public PackageController(ServiceBase<Customer> serviceCustomer, ServiceBase<Role> serviceRole, ServiceBase<Package> servicePackage)
         {
-            _service = service;
+            _serviceCustomer = serviceCustomer;
             _serviceRole = serviceRole;
             _servicePackage = servicePackage;
         }
-
+        //Get Info
+        //Done 
         [HttpGet]
         [AllowAnonymous]
         public async Task<ActionResult<IList<PackageResponseDTO>>> GetPackage()
@@ -39,22 +40,22 @@ namespace SWP_Ticket_ReSell_API.Controllers
             var entities = await _servicePackage.FindListAsync<PackageResponseDTO>();
             return Ok(entities);
         }
-
+        //Done 
         [HttpGet("{id}")]
         public async Task<ActionResult<PackageResponseDTO>> GetPackage(string id)
         {
-            var entity = await _service.FindByAsync(p => p.ID_Package.ToString() == id);
+            var entity = await _servicePackage.FindByAsync(p => p.ID_Package.ToString() == id);
             if (entity == null)
             {
                 return Problem(detail: $"Package id {id} cannot found", statusCode: 404);
             }
             return Ok(entity.Adapt<PackageResponseDTO>());
         }
-
+        //Update 
         [HttpPut]
         public async Task<IActionResult> PutPackgage (PackageResponseDTO packageRequest)
         {
-            var entity = await _service.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
+            var entity = await _serviceCustomer.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
             if (entity == null)
             {
                 return Problem(detail: $"Package_id {packageRequest.ID_Package} cannot found", statusCode: 404);
@@ -66,12 +67,15 @@ namespace SWP_Ticket_ReSell_API.Controllers
             }
 
             packageRequest.Adapt(entity);
-            await _service.UpdateAsync(entity);
+            await _serviceCustomer.UpdateAsync(entity);
             return Ok("Update Package successfull.");
         }
 
-        //Customer xài
+        
         //[Authorize(Roles = "2")]
+        //Customer xài
+        //Create 
+        //Customer chọn gói 
         [HttpPost]
         public async Task<IActionResult> PackageChoose(PackageRequestDTO package)
         {
@@ -81,7 +85,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
             if (packageFind != null)
             {
                 //so với Customer
-                var packageExist = await _service.FindByAsync(c => c.ID_Package == package.ID_Package);
+                var packageExist = await _serviceCustomer.FindByAsync(c => c.ID_Package == package.ID_Package);
                 if (packageExist != null)
                 {
                     // Kiểm tra xem gói khách hàng đã chọn có trùng với gói hiện tại không
@@ -92,7 +96,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
                     }
                     // Nếu không trùng, cập nhật gói mới
                     packageExist.ID_Package = package.ID_Package;
-                    await _service.UpdateAsync(packageExist);  // Cập nhật thông tin khách hàng với gói mới
+                    await _serviceCustomer.UpdateAsync(packageExist);  // Cập nhật thông tin khách hàng với gói mới
                     return Ok(new { message = "Package selected successfully", package });
                 }
             }
@@ -103,13 +107,13 @@ namespace SWP_Ticket_ReSell_API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePackage(int id)
         {
-            var package = await _service.FindByAsync(p => p.ID_Package == id);
+            var package = await _serviceCustomer.FindByAsync(p => p.ID_Package == id);
             if (package == null)
             {
                 return Problem(detail: $"package_id {id} cannot found", statusCode: 404);
             }
 
-            await _service.DeleteAsync(package);
+            await _serviceCustomer.DeleteAsync(package);
             return Ok("Delete package successfull.");
         }
     }
