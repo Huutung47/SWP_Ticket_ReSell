@@ -147,7 +147,7 @@
   },
   {
     "ContainingType": "SWP_Ticket_ReSell_API.Controllers.FeedbackController",
-    "Method": "GetCustomer",
+    "Method": "GetFeedback",
     "RelativePath": "api/Feedback",
     "HttpMethod": "GET",
     "IsController": true,
@@ -155,7 +155,33 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IList\u00601[[SWP_Ticket_ReSell_DAO.DTO.Package.FeedbackCreateDTO, SWP_Ticket_ReSell_DAO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IList\u00601[[SWP_Ticket_ReSell_DAO.DTO.Package.FeedbackRequestDTO, SWP_Ticket_ReSell_DAO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SWP_Ticket_ReSell_API.Controllers.FeedbackController",
+    "Method": "GetFeedback",
+    "RelativePath": "api/Feedback/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SWP_Ticket_ReSell_DAO.DTO.Feedback.FeedbackReponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

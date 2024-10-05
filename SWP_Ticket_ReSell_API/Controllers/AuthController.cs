@@ -100,6 +100,8 @@ namespace SWP_Ticket_ReSell_API.Controllers
             await _serviceCustomer.CreateAsync(customer);
             return Ok("Create customer successfull.");
         }
+
+
     }
 }
 
