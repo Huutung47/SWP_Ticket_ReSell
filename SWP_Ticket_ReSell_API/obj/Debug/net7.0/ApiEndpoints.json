@@ -167,6 +167,32 @@
   },
   {
     "ContainingType": "SWP_Ticket_ReSell_API.Controllers.FeedbackController",
+    "Method": "PostFeedback",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbackRequest",
+        "Type": "SWP_Ticket_ReSell_DAO.DTO.Package.FeedbackRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SWP_Ticket_ReSell_DAO.DTO.Feedback.FeedbackReponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SWP_Ticket_ReSell_API.Controllers.FeedbackController",
     "Method": "GetFeedback",
     "RelativePath": "api/Feedback/{id}",
     "HttpMethod": "GET",
@@ -210,22 +236,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "SWP_Ticket_ReSell_API.Controllers.PackageController",
-    "Method": "PutTicket",
-    "RelativePath": "api/Package",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "packageRequest",
-        "Type": "SWP_Ticket_ReSell_DAO.DTO.Package.PackageResponseDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "SWP_Ticket_ReSell_API.Controllers.PackageController",
@@ -306,6 +316,22 @@
       {
         "Name": "packageRequest",
         "Type": "SWP_Ticket_ReSell_DAO.DTO.Package.PackageRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SWP_Ticket_ReSell_API.Controllers.PackageController",
+    "Method": "PutTicket",
+    "RelativePath": "api/Package/id",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageRequest",
+        "Type": "SWP_Ticket_ReSell_DAO.DTO.Package.PackageResponseDTO",
         "IsRequired": true
       }
     ],

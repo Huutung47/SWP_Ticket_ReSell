@@ -43,14 +43,15 @@ namespace SWP_Ticket_ReSell_API.Controllers
             }
             return Ok(entity.Adapt<FeedbackReponseDTO>());
         }
-
+        //Chinh sua feedback 
+        //Thay khong can thiet lam...
         //[HttpPut]
         //public async Task<IActionResult> PutTicket(FeedbackReponseDTO feedbackRequest)
         //{
-        //    var entity = await _serviceCustomer.FindByAsync(p => p.ID_Customer == feedbackRequest.ID_Customer);
+        //    var entity = await _serviceFeedback.FindByAsync(p => p.ID_Feedback == feedbackRequest.ID_Feedback);
         //    if (entity == null)
         //    {
-        //        return Problem(detail: $"Customer_id {feedbackRequest.ID_Customer} cannot found", statusCode: 404);
+        //        return Problem(detail: $"Feedback_id {feedbackRequest.ID_Order} cannot found", statusCode: 404);
         //    }
 
         //    if (!await _serviceFeedback.ExistsByAsync(p => p.ID_Feedback == feedbackRequest.ID_Feedback))
@@ -58,12 +59,17 @@ namespace SWP_Ticket_ReSell_API.Controllers
         //        return Problem(detail: $"Ticket_id {feedbackRequest.ID_Feedback} cannot found", statusCode: 404);
         //    }
 
-        //    ticketRequest.Adapt(entity);
-        //    await _service.UpdateAsync(entity);
+        //    feedbackRequest.Adapt(entity);
+        //    await _serviceFeedback.UpdateAsync(entity);
         //    return Ok("Update ticket successfull.");
         //}
-
-
-        
+        [HttpPost]
+        public async Task<ActionResult<FeedbackReponseDTO>> PostFeedback(FeedbackRequestDTO feedbackRequest)
+        {
+            var feedBack = new Feedback();
+            feedbackRequest.Adapt(feedBack);
+            await _serviceFeedback.CreateAsync(feedBack);
+            return Ok("Thank you for your feedback.");
+        }
     }
 }
