@@ -13,5 +13,6 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Package
 
         public int? Stars { get; set; }
 
+
     }
 }

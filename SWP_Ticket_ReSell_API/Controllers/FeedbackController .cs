@@ -45,24 +45,19 @@ namespace SWP_Ticket_ReSell_API.Controllers
         }
         //Chinh sua feedback 
         //Thay khong can thiet lam...
-        //[HttpPut]
-        //public async Task<IActionResult> PutTicket(FeedbackReponseDTO feedbackRequest)
-        //{
-        //    var entity = await _serviceFeedback.FindByAsync(p => p.ID_Feedback == feedbackRequest.ID_Feedback);
-        //    if (entity == null)
-        //    {
-        //        return Problem(detail: $"Feedback_id {feedbackRequest.ID_Order} cannot found", statusCode: 404);
-        //    }
+        [HttpPut]
+        public async Task<IActionResult> PutTicket(FeedbackReponseDTO feedbackRequest)
+        {
+            var feedback = await _serviceFeedback.FindByAsync(p => p.ID_Feedback == feedbackRequest.ID_Feedback);
+            if (feedback == null)
+            {
+                return Problem(detail: $"Feedback_id {feedbackRequest.ID_Order} cannot found", statusCode: 404);
+            }
+            feedbackRequest.Adapt(feedback);
+            await _serviceFeedback.UpdateAsync(feedback);
+            return Ok("Update ticket successfull.");
+        }
 
-        //    if (!await _serviceFeedback.ExistsByAsync(p => p.ID_Feedback == feedbackRequest.ID_Feedback))
-        //    {
-        //        return Problem(detail: $"Ticket_id {feedbackRequest.ID_Feedback} cannot found", statusCode: 404);
-        //    }
-
-        //    feedbackRequest.Adapt(entity);
-        //    await _serviceFeedback.UpdateAsync(entity);
-        //    return Ok("Update ticket successfull.");
-        //}
         [HttpPost]
         public async Task<ActionResult<FeedbackReponseDTO>> PostFeedback(FeedbackRequestDTO feedbackRequest)
         {
@@ -70,6 +65,18 @@ namespace SWP_Ticket_ReSell_API.Controllers
             feedbackRequest.Adapt(feedBack);
             await _serviceFeedback.CreateAsync(feedBack);
             return Ok("Thank you for your feedback.");
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteFeedback(int id)
+        {
+            var feedBack = await _serviceFeedback.FindByAsync(p => p.ID_Feedback == id);
+            if (feedBack == null)
+            {
+                return Problem(detail: $"Feedback_id {id} cannot found", statusCode: 404);
+            }
+            await _serviceFeedback.DeleteAsync(feedBack);
+            return Ok("Delete feedBack successfull.");
         }
     }
 }

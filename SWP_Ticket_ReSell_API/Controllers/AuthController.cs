@@ -73,35 +73,35 @@ namespace SWP_Ticket_ReSell_API.Controllers
         [HttpPost("Register")]
         public async Task<ActionResult<RegisterResponseDTO>> Register(RegisterRequestDTO request)
         {
-            if (await _serviceCustomer.ExistsByAsync(p => p.Email.Equals(request.Email)))
+            if (ModelState.IsValid)
             {
-                return Problem(detail: $"Email {request.Email} already exists", statusCode: 400);
+                if (await _serviceCustomer.ExistsByAsync(p => p.Email.Equals(request.Email)))
+                {
+                    return Problem(detail: $"Email {request.Email} already exists", statusCode: 400);
+                }
+                if (request.Password != request.ConfirmPassWord)
+                {
+                    return Problem(detail: $"Password and Confirm Password different", statusCode: 400);
+                }
+                var customer = new Customer()
+                {
+                    Email = request.Email,
+                    Password = request.Password,
+                    //Feed Back Avg
+                    Average_feedback = 0,
+                    //Customer Role = 2
+                    ID_Role = 2,
+                    //Basic Backet = 1 
+                };
+                //Email
+                //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
+                //var callbackUrl = Url.Action("ConfirmEmail", "Account", new { customer.ID_Customer, code = code }, protocol: Request.Scheme);
+                //await UserManager.SendEmailAsync(customer.ID_Customer, "Confirm Email","Please Confirm Email");
+                request.Adapt(customer);
+                await _serviceCustomer.CreateAsync(customer);
             }
-            if (request.Password != request.ConfirmPassWord)
-            {
-                return Problem(detail: $"Password and Confirm Password different", statusCode: 400);
-            }
-            var customer = new Customer()
-            {
-                Email = request.Email,
-                Password = request.Password,
-                Name = request.Name,
-                //Feed Back Avg
-                Average_feedback = 0,
-                //Customer Role = 2
-                ID_Role = 2,
-                //Basic Backet = 1 
-                ID_Package = 1,
-            };
-            //Email
-            //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
-            //var callbackUrl = Url.Action("ConfirmEmail", "Account", new {user})
-            request.Adapt(customer);
-            await _serviceCustomer.CreateAsync(customer);
             return Ok("Create customer successfull.");
         }
-
-
     }
 }
 
