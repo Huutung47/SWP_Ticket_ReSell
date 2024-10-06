@@ -1,9 +1,7 @@
 ﻿using Mapster;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Repository;
-using SWP_Ticket_ReSell_DAO.DTO.Customer;
 using SWP_Ticket_ReSell_DAO.DTO.Package;
 using SWP_Ticket_ReSell_DAO.DTO.Ticket;
 using SWP_Ticket_ReSell_DAO.Models;
@@ -17,22 +15,16 @@ namespace SWP_Ticket_ReSell_API.Controllers
         private readonly ServiceBase<Customer> _serviceCustomer;
         private readonly ServiceBase<Package> _servicePackage;
         private readonly ServiceBase<Role> _serviceRole;
-        //private readonly ServiceBase<Feedback> _serviceFeedback;
-        //private readonly ServiceBase<Boxchat> _serviceBoxchat;
-        //private readonly ServiceBase<Notification> _serviceNotification;
-        //private readonly ServiceBase<Order> _serviceOrder;
-        //private readonly ServiceBase<Report> _serviceReport;
-        //private readonly ServiceBase<Request> _serviceRequest;
-        //private readonly ServiceBase<Ticket> _serviceTicket;
-        
+
         public PackageController(ServiceBase<Customer> serviceCustomer, ServiceBase<Role> serviceRole, ServiceBase<Package> servicePackage)
         {
             _serviceCustomer = serviceCustomer;
             _serviceRole = serviceRole;
             _servicePackage = servicePackage;
         }
-        //Get Info
+
         //Done 
+        //Get all package
         [HttpGet]
         [AllowAnonymous]
         public async Task<ActionResult<IList<PackageResponseDTO>>> GetPackage()
@@ -41,6 +33,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
             return Ok(entities);
         }
         //Done 
+        //Get package = id 
         [HttpGet("{id}")]
         public async Task<ActionResult<PackageResponseDTO>> GetPackage(string id)
         {
@@ -51,69 +44,94 @@ namespace SWP_Ticket_ReSell_API.Controllers
             }
             return Ok(entity.Adapt<PackageResponseDTO>());
         }
-        //Update 
-        [HttpPut]
-        public async Task<IActionResult> PutPackgage (PackageResponseDTO packageRequest)
+
+        //Update package
+        [HttpPut("id")]
+        public async Task<IActionResult> PutTicket(PackageResponseDTO packageRequest)
         {
-            var entity = await _serviceCustomer.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
+            var entity = await _servicePackage.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
             if (entity == null)
             {
                 return Problem(detail: $"Package_id {packageRequest.ID_Package} cannot found", statusCode: 404);
             }
-
-            if (!await _servicePackage.ExistsByAsync(p => p.ID_Package == packageRequest.ID_Package))
-            {
-                return Problem(detail: $"Package_id {packageRequest.ID_Package} cannot found", statusCode: 404);
-            }
-
             packageRequest.Adapt(entity);
-            await _serviceCustomer.UpdateAsync(entity);
-            return Ok("Update Package successfull.");
+            await _servicePackage.UpdateAsync(entity);
+            return Ok("Update ticket successfull.");
         }
 
-        
+        //Update Package Customer
+        //Customer chon goi 
         //[Authorize(Roles = "2")]
-        //Customer xài
-        //Create 
-        //Customer chọn gói 
-        [HttpPost]
-        public async Task<IActionResult> PackageChoose(PackageRequestDTO package)
+        [HttpPut("CustomerChoosePackage")]
+        public async Task<IActionResult> ChoosePackage(PackageRequestDTO packageRequest)
         {
-            // Tìm gói Package dựa trên ID_Package mà khách hàng chọn
-            var packageFind = await _servicePackage.FindByAsync(p => p.ID_Package == package.ID_Package);
-            //Nếu thấy Package
-            if (packageFind != null)
+            // Kiểm tra xem Package đó có trong bảng Package không
+            var checkPackage = await _servicePackage.FindByAsync(p => p.ID_Package == packageRequest.ID_Package);
+            if (checkPackage == null)
             {
-                //so với Customer
-                var packageExist = await _serviceCustomer.FindByAsync(c => c.ID_Package == package.ID_Package);
-                if (packageExist != null)
-                {
-                    // Kiểm tra xem gói khách hàng đã chọn có trùng với gói hiện tại không
-                    if (packageExist.ID_Package == package.ID_Package)
-                    {
-                        // Nếu trùng, trả về lỗi và không cho đăng ký lại
-                        return BadRequest(new { message = "You have already registered for this package. Please choose a different package." });
-                    }
-                    // Nếu không trùng, cập nhật gói mới
-                    packageExist.ID_Package = package.ID_Package;
-                    await _serviceCustomer.UpdateAsync(packageExist);  // Cập nhật thông tin khách hàng với gói mới
-                    return Ok(new { message = "Package selected successfully", package });
-                }
+                return Problem(detail: $"Package_id {packageRequest.ID_Package} cannot be found", statusCode: 404);
             }
-            //Nếu không thấy Package 
-            return NotFound(new { message = "Package not found" });
-        }
 
+            // Lấy ID_Customer từ thông tin đăng nhập (Identity) và chuyển sang kiểu int
+            var customerIdString = User.FindFirst("ID_Customer")?.Value;
+            if (string.IsNullOrEmpty(customerIdString))
+            {
+                return Problem(detail: "Customer ID cannot be found from the logged-in user", statusCode: 400);
+            }
+
+            // Chuyển đổi ID_Customer từ string sang int
+            if (!int.TryParse(customerIdString, out int customerId))
+            {
+                return Problem(detail: "Invalid Customer ID format", statusCode: 400);
+            }
+
+            // Tìm thông tin khách hàng theo ID_Customer
+            var customer = await _serviceCustomer.FindByAsync(p => p.ID_Customer == customerId);
+            if (customer == null)
+            {
+                return Problem(detail: $"Customer with ID {customerId} cannot be found", statusCode: 404);
+            }
+
+            // Kiểm tra xem người dùng đã có gói dịch vụ nào chưa
+            if (customer.HSD_package != null)
+            {
+                // Nếu người dùng đã có gói, cộng thêm thời gian từ gói mới vào gói hiện tại của họ
+                customer.HSD_package = customer.HSD_package.Value.AddMonths(checkPackage.Time_package);
+
+                // Lưu lại cập nhật cho người dùng
+                await _serviceCustomer.UpdateAsync(customer);
+                return Ok("Package time updated successfully.");
+            }
+            else
+            {
+                // Nếu người dùng chưa có gói, gán gói mới cho người dùng
+                customer.ID_Package = checkPackage.ID_Package;
+                customer.HSD_package = DateTime.Now.AddMonths(checkPackage.Time_package); // Set thời gian hết hạn từ gói mới
+                await _serviceCustomer.UpdateAsync(customer);
+                return Ok("New package assigned successfully.");
+            }
+        }
+        //Done
+        //Create package 
+        [HttpPost]
+        public async Task<ActionResult<PackageResponseDTO>> PostTicket(PackageRequestDTO packageRequest)
+        {
+            var package = new Package();
+            packageRequest.Adapt(package);
+            await _servicePackage.CreateAsync(package);
+            return Ok("Create package successfull.");
+        }
+        //Done 
+        //Delete package 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePackage(int id)
         {
-            var package = await _serviceCustomer.FindByAsync(p => p.ID_Package == id);
+            var package = await _servicePackage.FindByAsync(p => p.ID_Package == id);
             if (package == null)
             {
-                return Problem(detail: $"package_id {id} cannot found", statusCode: 404);
+                return Problem(detail: $"Package_id {id} cannot found", statusCode: 404);
             }
-
-            await _serviceCustomer.DeleteAsync(package);
+            await _servicePackage.DeleteAsync(package);
             return Ok("Delete package successfull.");
         }
     }
