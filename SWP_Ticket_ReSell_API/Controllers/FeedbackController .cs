@@ -44,14 +44,13 @@ namespace SWP_Ticket_ReSell_API.Controllers
             return Ok(entity.Adapt<FeedbackReponseDTO>());
         }
         //Chinh sua feedback 
-        //Thay khong can thiet lam...
         [HttpPut]
-        public async Task<IActionResult> PutTicket(FeedbackReponseDTO feedbackRequest)
+        public async Task<IActionResult> PutFeedBack(FeedbackReponseDTO feedbackRequest)
         {
             var feedback = await _serviceFeedback.FindByAsync(p => p.ID_Feedback == feedbackRequest.ID_Feedback);
             if (feedback == null)
             {
-                return Problem(detail: $"Feedback_id {feedbackRequest.ID_Order} cannot found", statusCode: 404);
+                return Problem(detail: $"Feedback_id {feedbackRequest.ID_Feedback} cannot found", statusCode: 404);
             }
             feedbackRequest.Adapt(feedback);
             await _serviceFeedback.UpdateAsync(feedback);
