@@ -15,6 +15,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
     [Route("api/[controller]")]
     public class AuthController : Controller
     {
+        //private ApplicationUserManager _userManager;
         private readonly IConfiguration _configuration;
         private readonly ServiceBase<Customer> _serviceCustomer;
         private readonly ServiceBase<Role> _serviceRole;
@@ -53,6 +54,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
                     new Claim(ClaimTypes.Email, user.Email.ToString()),
                     //role 
                     new Claim(ClaimTypes.Role, user.ID_Role.ToString()!)
+
                 };
             var key = new SymmetricSecurityKey(
                 System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:SerectKey").Value!));
@@ -96,7 +98,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
                 //Email
                 //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
                 //var callbackUrl = Url.Action("ConfirmEmail", "Account", new { customer.ID_Customer, code = code }, protocol: Request.Scheme);
-                //await UserManager.SendEmailAsync(customer.ID_Customer, "Confirm Email","Please Confirm Email");
+                //await UserManager.SendEmailAsync(customer.ID_Customer, "Confirm Email", "Please Confirm Email");
                 request.Adapt(customer);
                 await _serviceCustomer.CreateAsync(customer);
             }

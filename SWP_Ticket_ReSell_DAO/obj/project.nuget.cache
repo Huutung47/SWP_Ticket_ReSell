@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vP0u59A+CdY=",
+  "dgSpecHash": "v2e7UelvqDM=",
   "success": true,
   "projectFilePath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
   "expectedPackageFiles": [
@@ -21,11 +21,11 @@
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.16\\microsoft.entityframeworkcore.7.0.16.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.16\\microsoft.entityframeworkcore.abstractions.7.0.16.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.16\\microsoft.entityframeworkcore.analyzers.7.0.16.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.11\\microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\7.0.11\\microsoft.entityframeworkcore.proxies.7.0.11.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.11\\microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.11\\microsoft.entityframeworkcore.tools.7.0.11.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

@@ -1594,7 +1594,6 @@
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore.Proxies": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Swashbuckle.AspNetCore.Filters": "7.0.8"
@@ -4723,6 +4722,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
+      "Microsoft.Extensions.Identity.Core >= 7.0.0",
       "SWP_Ticket_ReSell_DAO >= 1.0.0",
       "SWP_Ticket_ReSell_Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -4806,6 +4806,10 @@
             "version": "[7.0.0, )"
           },
           "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.Identity.Core": {
             "target": "Package",
             "version": "[7.0.0, )"
           },

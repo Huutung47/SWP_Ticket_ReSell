@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWP_Ticket_ReSell_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d14899b365fa988dee7e408511f9511cac9efa15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c95d8abb24f18ca1d94c182df307bb0d58ffb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWP_Ticket_ReSell_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWP_Ticket_ReSell_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
