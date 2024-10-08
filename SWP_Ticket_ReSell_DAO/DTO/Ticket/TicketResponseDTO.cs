@@ -16,13 +16,13 @@ namespace SWP_Ticket_ReSell_DAO.DTO.Ticket
 
         public string Ticket_category { get; set; }
 
-        public bool? Ticket_type { get; set; }
+        public string Ticket_type { get; set; }
 
         public string Buyer { get; set; }
 
         public int? Quantity { get; set; }
 
-        public string Ticket_History { get; set; }
+        public DateTime? Ticket_History { get; set; }
 
         public string Status { get; set; }
 

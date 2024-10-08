@@ -3,22 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 using Repository;
 using SWP_Ticket_ReSell_DAO.DTO.Ticket;
 using SWP_Ticket_ReSell_DAO.Models;
+//using SWP_Ticket_ReSell_Repository;
 
 namespace SWP_Ticket_ReSell_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TicketController : Controller
+    public class TicketController : ControllerBase
     {
         private readonly ServiceBase<Ticket> _service;
         private readonly ServiceBase<Role> _serviceRole;
         private readonly ServiceBase<Package> _servicePackage;
-
-        public TicketController(ServiceBase<Ticket> service, ServiceBase<Role> serviceRole, ServiceBase<Package> servicePackage)
+        private readonly GenericRepository<Ticket> _ticketRepository;
+        public TicketController(ServiceBase<Ticket> service, ServiceBase<Role> serviceRole, ServiceBase<Package> servicePackage, GenericRepository<Ticket> ticketRepository)
         {
             _service = service;
             _serviceRole = serviceRole;
             _servicePackage = servicePackage;
+            _ticketRepository = ticketRepository;
         }
 
         [HttpGet]
@@ -27,7 +29,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
             var entities = await _service.FindListAsync<TicketResponseDTO>();
             return Ok(entities);
         }
-
+       
         [HttpGet("{id}")]
         public async Task<ActionResult<TicketResponseDTO>> GetTicket(string id)
         {
@@ -37,6 +39,31 @@ namespace SWP_Ticket_ReSell_API.Controllers
                 return Problem(detail: $"Ticket id {id} cannot found", statusCode: 404);
             }
             return Ok(entity.Adapt<TicketResponseDTO>());
+        }
+
+        [HttpGet("seller/{sellerId}")]
+        public async Task<ActionResult<IEnumerable<TicketResponseDTO>>> GetTicketsBySellerId(int sellerId)
+        {
+            var tickets = await _ticketRepository.GetByIdCustomer(sellerId);
+            if (tickets == null || !tickets.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(tickets.Select(t => new TicketResponseDTO
+            {
+                ID_Ticket = t.ID_Ticket,
+                ID_Customer = t.ID_Customer,
+                Price = t.Price,
+                Ticket_category = t.Ticket_category,
+                Ticket_type = t.Ticket_type,
+                Buyer = t.Buyer,
+                Quantity = t.Quantity,
+                Ticket_History = t.Ticket_History,
+                Status = t.Status,
+                Show_Name = t.Show_Name,
+                Description = t.Description,
+            }));
         }
 
         [HttpPut]

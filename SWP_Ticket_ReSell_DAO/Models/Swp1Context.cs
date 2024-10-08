@@ -52,7 +52,7 @@ public partial class swp1Context : DbContext
         {
             entity.HasKey(e => e.ID_Customer).HasName("PK__Customer__2D8FDE5FDCCBAC6F");
 
-            entity.ToTable("Customer");
+            entity.ToTable("Customer", tb => tb.HasTrigger("PreventEmailUpdate"));
 
             entity.Property(e => e.Average_feedback).HasColumnType("decimal(3, 2)");
             entity.Property(e => e.Contact)

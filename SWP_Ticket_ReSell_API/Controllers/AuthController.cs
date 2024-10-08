@@ -94,6 +94,7 @@ namespace SWP_Ticket_ReSell_API.Controllers
                     //Customer Role = 2
                     ID_Role = 2,
                     //Basic Backet = 1 
+                    Image = ""
                 };
                 //Email
                 //string code = await UserManager.GenerateEmailConfirmationTokenAsync(customer.ID_Customer);
