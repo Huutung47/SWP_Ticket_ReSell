@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWP_Ticket_ReSell_DAO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9697ee2d93826d773f5bc08bdeae61b5e39c52dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edd52bcc039ce6727342ec25b1b64ffff3f70d28")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWP_Ticket_ReSell_DAO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWP_Ticket_ReSell_DAO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
