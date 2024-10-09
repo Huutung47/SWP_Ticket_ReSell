@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SWP\\SWP_Ticket_ReSell\\",
+  "WorkspaceRootPath": "D:\\Git 1\\SWP_Ticket_ReSell\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8D58D4D-0774-4A47-A677-2F74B0E19FE3}|SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8D58D4D-0774-4A47-A677-2F74B0E19FE3}|SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8D58D4D-0774-4A47-A677-2F74B0E19FE3}|SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj|solutionrelative:swp_ticket_resell_repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\notificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\notificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\notificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\report\\reportresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\report\\reportresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\report\\reportresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\report\\reportrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_dao\\dto\\report\\reportrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\dto\\report\\reportrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\feedbackcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\feedbackcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\feedbackcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_dao\\models\\swp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_dao\\models\\swp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8525A043-93B9-40E7-9127-B09B719F3591}|SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj|solutionrelative:swp_ticket_resell_dao\\models\\swp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8D58D4D-0774-4A47-A677-2F74B0E19FE3}|SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_repository\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8D58D4D-0774-4A47-A677-2F74B0E19FE3}|SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_repository\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8D58D4D-0774-4A47-A677-2F74B0E19FE3}|SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj|solutionrelative:swp_ticket_resell_repository\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\swp\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|d:\\git 1\\swp_ticket_resell\\swp_ticket_resell_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF1BE59D-7DC7-4AEF-BDC4-EB88AC191A51}|SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj|solutionrelative:swp_ticket_resell_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,86 +62,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ReportResponseDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportResponseDTO.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportResponseDTO.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportResponseDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportResponseDTO.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportResponseDTO.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T18:36:18.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T18:36:18.283Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ReportRequestDTO.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportRequestDTO.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportRequestDTO.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportRequestDTO.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportRequestDTO.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportRequestDTO.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\DTO\\Report\\ReportRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T18:35:54.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T18:35:54.378Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ReportController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\ReportController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\ReportController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\ReportController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\ReportController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAkwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T18:27:46.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-10-08T18:27:46.889Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "RequestController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\RequestController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\RequestController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\RequestController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\RequestController.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\RequestController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\RequestController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T18:35:00.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T18:35:00.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Swp1Context.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_DAO\\Models\\Swp1Context.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T18:25:42.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T18:25:42.628Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TicketController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs*",
-              "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T14:56:15.855Z",
               "EditorCaption": ""
@@ -150,22 +141,21 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\CustomerController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T14:55:54.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T14:55:54.29Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAFsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,66 +165,61 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\GenericRepository.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_Repository\\GenericRepository.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\GenericRepository.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_Repository\\GenericRepository.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAswF0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:45:49.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:45:49.363Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ServiceBase.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\ServiceBase.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\ServiceBase.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_Repository\\ServiceBase.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\ServiceBase.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\ServiceBase.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_Repository\\ServiceBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:45:47.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:45:47.419Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PackageController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\PackageController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwDEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:45:19.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:45:19.047Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "NotificateController.cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\NotificateController.cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\NotificateController.cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\NotificateController.cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\NotificateController.cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\NotificateController.cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\NotificateController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:43:54.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:43:54.94Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "FeedbackController .cs",
-              "DocumentMoniker": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\FeedbackController .cs",
+              "DocumentMoniker": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\FeedbackController .cs",
               "RelativeDocumentMoniker": "SWP_Ticket_ReSell_API\\Controllers\\FeedbackController .cs",
-              "ToolTip": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\FeedbackController .cs",
+              "ToolTip": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\Controllers\\FeedbackController .cs",
               "RelativeToolTip": "SWP_Ticket_ReSell_API\\Controllers\\FeedbackController .cs",
               "ViewState": "AgIAACQAAAAAAAAAAAA8wFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:43:42.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:43:42.49Z"
             }
           ]
         }

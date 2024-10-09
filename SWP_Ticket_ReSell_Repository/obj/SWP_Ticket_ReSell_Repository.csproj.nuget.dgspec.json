@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {}
+    "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {}
   },
   "projects": {
-    "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
+    "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
+        "projectUniqueName": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
         "projectName": "SWP_Ticket_ReSell_DAO",
-        "projectPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
+        "projectPath": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\obj\\",
+        "outputPath": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,14 +113,14 @@
         }
       }
     },
-    "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
+    "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
+        "projectUniqueName": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
         "projectName": "SWP_Ticket_ReSell_Repository",
-        "projectPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
+        "projectPath": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\SWP_Ticket_ReSell_Repository.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\obj\\",
+        "outputPath": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -142,8 +142,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
-                "projectPath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj"
+              "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj": {
+                "projectPath": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_DAO\\SWP_Ticket_ReSell_DAO.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N1OsUodB3Pg=",
+  "dgSpecHash": "js3XL3E7cSk=",
   "success": true,
-  "projectFilePath": "D:\\SWP\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
+  "projectFilePath": "D:\\Git 1\\SWP_Ticket_ReSell\\SWP_Ticket_ReSell_API\\SWP_Ticket_ReSell_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
